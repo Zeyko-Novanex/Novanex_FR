@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Novanex FR</title>
+  <meta name="description" content="Plein de types de puff — la batterie qu’il te faut !" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">Novanex FR</a>
+      <nav class="nav">
+        <a href="#home">Accueil</a>
+        <a href="#products">Nos Produits</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <h1>Plein de types de puff — la batterie qu’il te faut !</h1>
+        <p>Découvrez la gamme Novanex FR : performance, design et fiabilité pour toutes vos recharges.</p>
+      </div>
+    </section>
+
+    <section id="products" class="container">
+      <h2>Nos Produits</h2>
+      <p>Découvrez nos packs de batteries externes adaptés à tous les besoins. (Ajoutez vos produits ici)</p>
+    </section>
+
+    <section id="about" class="container">
+      <h2>À propos de Novanex FR</h2>
+      <p>Novanex FR est une marque spécialisée dans les batteries externes performantes et durables. 
+      Notre objectif : fournir à chacun une solution de recharge fiable et élégante.</p>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <p>Pour toute demande, écrivez-nous à : <a href="mailto:Novanex.frcontact@gmail.com">Novanex.frcontact@gmail.com</a></p>
+      <form id="contact-form">
+        <label for="name">Nom</label>
+        <input id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Novanex FR — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
